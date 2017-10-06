@@ -1,0 +1,201 @@
+/* 
+    micro-cms
+*/
+
+html {
+    overflow: -moz-scrollbars-vertical; /* For FF */
+    -ms-overflow-y: scroll; /* For IE */
+    overflow-y: scroll; /* For others & old IE */
+}
+
+body {
+    background: #f4f4f4 url(../images/body.gif);
+}
+
+.wrapper {
+    max-width:480px;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+}	
+
+.inner {
+    -moz-box-shadow:0px 0px 7px 0px rgba(119, 119, 119, 0.5);
+    -webkit-box-shadow:0px 0px 7px 0px rgba(119, 119, 119, 0.5);
+    box-shadow:0px 0px 7px 0px rgba(119, 119, 119, 0.5);
+    border-radius: 10px;
+    background: #e2e2ea;
+    padding: 10px;
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1001;
+    display: none;
+}
+
+.create-new {
+    margin: 0 auto;
+    width: 310px;
+    z-index: 1500;
+    background-color: #ffffff;
+    padding: 4px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.mod {
+    max-width:480px;
+    background: #fff;
+    margin: 0 auto;
+    min-height: 40px;
+    padding:10px;
+    margin-top:10px;
+    border-radius: 6px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 10px;
+    -moz-box-shadow: 2px 3px 5px 0 #DEDEDE;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 2px 3px 5px 0 #DEDEDE;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer p {
+    padding: 7px 0 7px 0;
+}
+
+article {
+    background: #fff;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+button.new,
+button.save,
+button.delete,
+button.add {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin:  0 0 0 0;
+}
+
+.nav-items {
+    margin-top:10px;
+}
+
+ul#results li {
+    border-bottom:1px dashed #336699;
+    margin:0 0 5px 0;
+}
+
+.ad-buttons {
+    display:block;
+    margin:0 0 10px 5px;
+    padding:5px 0 10px;
+}
+
+.ad-buttons a {
+    border: 1px solid #CCCCCC; 
+    background-color:#1E508C;
+    color:#FFFFFF;
+    padding:2px 5px 2px 5px;
+    text-decoration:none;
+    font-size:11px;
+}
+
+.ad-buttons a:hover {
+    background-color:#2665AD;
+}
+
+.portal-text-fields {
+    border:0;
+    margin:10px;
+}
+
+.portal-text-fields input {
+    display: inline-block;
+    margin-bottom:2px;
+    color:#000000;
+    height:15px;
+    width:200px;
+    margin:5px 0 0 0;
+    border:1px solid #cccccc;
+}
+
+ul.portal-text-fields li {
+    display: inline-block;
+    min-height: 30px;
+}
+
+label {
+    width:85px;
+    line-height: 20px;
+    float:left;
+    padding:0;
+}
+
+.update-form label {
+    width:85px;
+    line-height: 20px;
+    float:left;
+    padding:0;
+    font-size: 1.3em;
+}
+
+#fog {
+    width:100%;
+    height:100%;
+    background-color:#000;
+    position:fixed;
+    z-index:100;
+    filter:alpha(opacity=70);
+    -moz-opacity:.7;
+    -khtml-opacity:.7;
+    opacity:.7;
+    display:none;
+}
+
+.saving {
+    width:300px;
+    height:140px;
+    position:absolute;
+    margin:1px 0 0 4px;
+    background-color:#fff;
+    top:-1px;
+    left:-1px;
+    display:none;
+}
+
+.saving-icon {
+    margin:40px 0 0 130px;
+}
+
+.update {
+    display:none;
+}
+
+.add {
+    display:none;
+}
+
+.error {
+    border:1px solid #ff0000;
+}
+
+.float-right {
+    float:right;
+}
+
+.clearboth {
+    clear:both;
+}

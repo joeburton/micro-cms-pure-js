@@ -1,0 +1,93 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+	font-size:62.5%;
+	color:#000;
+}
+
+h1 {
+    padding: 5px 0 5px 3px;
+    font-size: 15px; font-size: 1.5rem;
+    font-weight: normal;
+    color: #000;
+}
+
+h2 {
+    padding: 15px 0 0 0;
+    font-size: 13px; font-size: 1.3rem;
+    font-weight: normal;
+}
+
+form select {
+	font-size:1.2em;
+}
+
+.mod h2 {
+    padding: 10px 0 10px;
+}
+
+h3 {
+    padding: 10px 0 10px 0px;
+    font-size: 10px; font-size: 1rem;
+    font-weight: normal;
+}
+
+h4 {
+    padding: 0 0 10px 0;
+    font-size: 10px; font-size: 1rem;
+    font-weight: normal;
+}
+
+ul li {
+    font-size: 10px; font-size: 1rem;
+    line-height: 16px;
+}
+
+ol li {
+    font-size: 10px; font-size: 1rem;
+    line-height: 16px;
+}
+
+footer {
+    color: #000;
+}
+
+p, em {
+    padding: 0 0 10px 0;
+    font-size: 10px; font-size: 1rem;
+    line-height: 16px;
+}
+
+a {
+	font-size:11px;
+	color: #00337F;
+}
+
+a:hover {
+    color: #000;    
+}
+
+button.new,
+button.save,
+button.delete {
+    font-size: 14px; font-size: 1.4rem; 
+}
+
+.list-form input {
+	font-size: 16px;
+}
+
+.ad-buttons {
+    font-family:Arial;
+    font-size:11px;
+    font-size:1.1rem;
+}
+
+.portal-text-fields input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+ul.portal-text-fields li label {
+    font-size: 11px;
+}
