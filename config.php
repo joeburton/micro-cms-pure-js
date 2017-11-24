@@ -1,14 +1,14 @@
 <?php
-	
-	$dbhost="localhost";
-	$dbusername="root";
-	$dbpassword="password";
-	$dbname="dev";
-	
-	// Connect to Mysql
-	$connect = mysql_connect($dbhost, $dbusername, $dbpassword);
 
-	//Select the correct database.
-	mysql_select_db($dbname,$connect) or die ("Could not select database");
-	
+    $hostname="localhost";
+    $username="root";
+    $password="joeburton";
+    $dbname="dev";
+
+    $conn = new mysqli($hostname, $username, $password, $dbname);
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
 ?>

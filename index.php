@@ -64,11 +64,15 @@
                         <option>Please Select Category</option>
                         <?php
                             include "config.php";
-                            $q = "SELECT DISTINCT JobTitle FROM job_listings";
-                            $r = mysql_query($q);
-                            while ($row = mysql_fetch_array($r)) {
-                                echo '<option value=' . '"' . $row['JobTitle'] . '"' . '>' . $row['JobTitle'] . '</option>';
-                            }
+                            
+                            $sql = "SELECT DISTINCT JobTitle FROM job_listings";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                                while($row = $result->fetch_assoc()) {
+                                    echo '<option value=' . '"' . $row['JobTitle'] . '"' . '>' . $row['JobTitle'] . '</option>';
+                                }
+                            };
                         ?>
                     </select>
                 </form>
